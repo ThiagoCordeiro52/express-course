@@ -3,7 +3,15 @@ import { Router, Request, Response } from 'express';
 const router = Router();
 
 router.get('/', (request: Request, response: Response) => {
-  response.send('Olá mundo!');
+  let user = {
+    name: 'Thiago',
+    lastName: 'Cordeiro',
+    age: 20
+  }
+  
+  response.render('home', {
+    user
+  });
 });
 
 router.get('/contato', (request: Request, response: Response) => {
