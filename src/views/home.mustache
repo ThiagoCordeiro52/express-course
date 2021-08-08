@@ -9,7 +9,9 @@
 <body>
   <h1>Título da página</h1>
   <hr/>
-
-  Olá, tudo bem, {{user.name}} {{user.lastName}}? Você tem {{user.age}} anos! Até mais!
+    Olá, tudo bem, {{user.name}} {{user.lastName}}?
+  {{#showOld}}
+    <strong>Como vai a vida?</strong>
+  {{/showOld}}
 </body>
 </html>
