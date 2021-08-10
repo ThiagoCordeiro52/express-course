@@ -21,7 +21,11 @@ router.get('/', (request: Request, response: Response) => {
       {title: 'Produto X', price: 10},
       {title: 'Produto Y', price: 15},
       {title: 'Produto Z', price: 20}
-    ]  
+    ],
+    frasesdoDia: [
+      'O sol nascerá amanhã',
+      'Um dia após o outro'
+    ]
   });
 });
 
