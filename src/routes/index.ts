@@ -6,7 +6,7 @@ router.get('/', (request: Request, response: Response) => {
   const user = {
     name: 'Thiago',
     lastName: 'Cordeiro',
-    age: 90,
+    age: 20,
   }
   let showOld: boolean = false;
 
@@ -22,10 +22,7 @@ router.get('/', (request: Request, response: Response) => {
       {title: 'Produto Y', price: 15},
       {title: 'Produto Z', price: 20}
     ],
-    frasesdoDia: [
-      'O sol nascerá amanhã',
-      'Um dia após o outro'
-    ]
+    frasesdoDia: []
   });
 });
 

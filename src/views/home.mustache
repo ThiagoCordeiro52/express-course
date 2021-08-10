@@ -13,6 +13,9 @@
   {{#showOld}}
     <strong>Como vai a vida?</strong>
   {{/showOld}}
+  {{^showOld}}
+    Beleza?
+  {{/showOld}}
 
   <hr>
 
@@ -28,6 +31,9 @@
   <ul>
     {{#frasesdoDia}}
       <li>{{.}}</li>
+    {{/frasesdoDia}}
+    {{^frasesdoDia}}
+      Não há frases motivacionais hoje!
     {{/frasesdoDia}}
   </ul>
 
