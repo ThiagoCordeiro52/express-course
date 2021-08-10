@@ -6,7 +6,7 @@ router.get('/', (request: Request, response: Response) => {
   const user = {
     name: 'Thiago',
     lastName: 'Cordeiro',
-    age: 90
+    age: 90,
   }
   let showOld: boolean = false;
 
@@ -15,7 +15,13 @@ router.get('/', (request: Request, response: Response) => {
   }
   
   response.render('home', {
-    user, showOld
+    user, 
+    showOld,  
+    products: [
+      {title: 'Produto X', price: 10},
+      {title: 'Produto Y', price: 15},
+      {title: 'Produto Z', price: 20}
+    ]  
   });
 });
 
