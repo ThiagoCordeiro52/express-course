@@ -14,7 +14,7 @@ router.get('/', (request: Request, response: Response) => {
     showOld = true;
   }
   
-  response.render('home', {
+  response.render('pages/home', {
     user, 
     showOld,  
     products: [
@@ -27,11 +27,11 @@ router.get('/', (request: Request, response: Response) => {
 });
 
 router.get('/contato', (request: Request, response: Response) => {
-  response.send('Formulário de contato!');
+  response.render('pages/contato');
 });
 
 router.get('/sobre', (request: Request, response: Response) => {
-  response.send('Página institucional sobre a empresa!');
+  response.render('pages/sobre');
 });
 
 export default router;
