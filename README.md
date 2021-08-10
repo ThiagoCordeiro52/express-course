@@ -3,7 +3,7 @@
 <p align="center">
   <img alt="Tamanho do Repositório" src="https://img.shields.io/github/repo-size/ThiagoOliveiraCordeiro/express-course?style=for-the-badge">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ThiagoOliveiraCordeiro/express-course?style=for-the-badge">
-  <a href="https://github.com/jeffessongomes">
+  <a href="https://github.com/ThiagoOliveiraCordeiro">
     <img alt="Feito pelo Thiago Oliveira" src="https://img.shields.io/badge/feito%20por-Thiago Oliveira-%237519C1?style=for-the-badge">
   </a>
   <img alt="Licença do Projeto" src="https://img.shields.io/cocoapods/l/m?style=for-the-badge"/>
@@ -20,7 +20,7 @@
 
 ## :computer: Sobre
 
-Projeto referente ao primeiro módulo de expressJS (Fundamentos) do curso **FullStack** da [b7web](https://alunos.b7web.com.br/login). Neste módulo, aprendi a tríade de conceitos principais: propriedades, estado e componentes. Além de entender e usar o Babel, Webpack e o TypeScript. Também comecei a ver os Hooks. 
+Projeto referente ao primeiro módulo de expressJS (Fundamentos) do curso **FullStack** da [b7web](https://alunos.b7web.com.br/login). Neste módulo, aprendi sobre template engine (fazendo uso do Mustache), arquitetura MVC, rotas, métodos HTTP. Além de entender e usar o TypeScript. 
 
 ---
 ### :hammer: **Tecnologias**
@@ -29,8 +29,8 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 
 - [Express](https://expressjs.com/pt-br/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Babel](https://babeljs.io/)
-- [Webpack](https://webpack.js.org/)
+- [Mustache](https://github.com/janl/mustache.js/)
+- [Nodemon](https://github.com/remy/nodemon)
 
 ---
 ### :triangular_ruler: **Status do Projeto**
@@ -43,10 +43,10 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/ThiagoOliveiraCordeiro/01-github-explorer.git
+$ git clone https://github.com/ThiagoOliveiraCordeiro/express-course.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd 01-github-explorer
+$ cd express-course
 
 # Instale as dependências
 $ yarn install
