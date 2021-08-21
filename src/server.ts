@@ -14,6 +14,8 @@ server.use('/static',express.static(path.join(__dirname, '../public')));
 // Faz a pasta ficar estática e libera rotas diretas para cada arquivo ou pasta dentro de public. Ou a partir de rotas
 // especificadas como primeiro parâmetro (opcional)
 
+server.use(express.urlencoded({extended: true}));
+
 server.use('/', mainRoutes);
 // ou simplesmente: server.use(mainRoutes);
 
